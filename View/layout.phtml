@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?=$data['site_name'];?></title>
+    </head>
+    <body>
+    <h1><?=$data['site_name']?></h1>
+    <hr>
+    <?php foreach ($data['menu'] as $name => $link):?> <!--Альтернативный синтаксис-->
+
+    <a href='<?=$link;?>'><?=$name;?></a>
+
+    <?php endforeach; ?>
+    <hr>
+        <h3><?=$data['content'];?></h3>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!-- Форма регистрации
+
+-->
+<h2>Write us</h2>
+<form method="post" action="">
+    <table border="0">
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><textarea name="message" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><input type="submit"></td>
+        </tr>
+    </table>
+
+</form>
+
+<?php
+//echo "POST: "; print_r($_POST); echo "<br/>";
+//echo "GET: "; print_r($_GET);
+echo isset($_GET['msg']) ? $_GET['msg'] : '';
+//echo "<h3>$_GET[msg]</h3>"
+?>
