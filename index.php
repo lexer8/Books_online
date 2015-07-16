@@ -1,10 +1,14 @@
-<?php
+﻿<?php
 /**
  * Created by PhpStorm.
  * User: user
  * Date: 30.06.15
  * Time: 19:03
  */
+
+//Изменение 17:07
+
+
 ERROR_REPORTING_DISPLAY_ALL;
 
 require 'config.php';
